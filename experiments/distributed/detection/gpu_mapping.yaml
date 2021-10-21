@@ -1,0 +1,11 @@
+lujianfei:
+        iZ2zej7cxpt67fb863ua92Z: [2]
+        iZ2zej7cxpt67fb863ua94Z: [1]
+
+
+# this is used for 4 clients and 1 server training within a single machine which has 4 GPUs
+mapping_config1_5:
+    lambda-server1: [2, 1, 1, 1]
+
+mapping_config2_5:
+    lambda-server1: [0,0,0,0,2, 1, 1, 1]
